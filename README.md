@@ -1,7 +1,8 @@
 # Bank Marketing – Term-Deposit Classification with Five ML Models and a Streamlit App
 
 **Live Streamlit app:** https://ml-classification-app-jdlovav7sl9wtahkftmydt.streamlit.app/
-**GitHub repository:** https://github.com/athisayarajp/ml-classification-streamlit.git 
+
+**GitHub repository:** https://github.com/athisayarajp/ml-classification-streamlit
 
 ## 1. Problem statement
 A bank runs telephone marketing campaigns and wants to know which clients will subscribe to a term deposit. This project builds and compares **five classification models** (Logistic Regression, Decision Tree, K-Nearest Neighbors, Naive Bayes and Support Vector Machine) that predict the binary target `y` (`yes` = subscribed, `no` = did not subscribe) from client, campaign and economic attributes. The models are evaluated with six metrics (Accuracy, AUC, Precision, Recall, F1, MCC), saved as pipelines, and served in an interactive Streamlit app that evaluates an uploaded test CSV **without retraining**.
@@ -27,7 +28,7 @@ A bank runs telephone marketing campaigns and wants to know which clients will s
 4. Each saved model is a complete pipeline (preprocessing + classifier), so the app accepts raw feature columns.
 
 ## 3. GitHub repository link
-https://github.com/athisayarajp/ml-classification-streamlit.git
+https://github.com/athisayarajp/ml-classification-streamlit
 
 ## 4. Models used
 Logistic Regression · Decision Tree · K-Nearest Neighbors (k=5) · Gaussian Naive Bayes · Support Vector Machine (RBF kernel). All five were trained on the same training split with default hyper-parameters (`random_state=42` where applicable) and evaluated on the same 8,236-row test set. The positive class is `yes`. AUC for the SVM is computed from its decision-function scores.
