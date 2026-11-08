@@ -68,7 +68,6 @@ ml-classification-streamlit/
 ├── README.md
 ├── test_data.csv             # held-out test data (with target y)
 ├── ML_Assignment2.ipynb      # executed notebook: EDA, preprocessing, 5 models, comparison, model export
-├── CHECKLIST.md              # milestone checklist
 ├── data/
 │   └── bank-additional-full.csv
 └── model/
